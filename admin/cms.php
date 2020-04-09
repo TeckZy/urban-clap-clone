@@ -1,4 +1,4 @@
-<? include "header.php";
+<?php include "header.php";
 include "leftmenu.php";
 $upd = isset($upd)?$upd:'';
 $id = isSet($id) ? $id : '' ;
@@ -128,80 +128,80 @@ if($act=="upd") {
 	            <div class="card-body collapse in">
 	                <div class="card-block card-dashboard table-responsive">
 	                <form method="post" action="cms.php" enctype="multipart/form-data" class="form-horizontal" >
-					<input type="hidden" name="idvalue" value="<? echo $id; ?>" />
-					<input type="hidden" name="pg" value="<? echo $page; ?>" />
-					<input type="hidden" name="upd" value="<? echo $upd; ?>" />
+					<input type="hidden" name="idvalue" value="<?php echo $id; ?>" />
+					<input type="hidden" name="pg" value="<?php echo $page; ?>" />
+					<input type="hidden" name="upd" value="<?php echo $upd; ?>" />
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Latitude</label>
-						<div class="col-sm-12"><input type="text" class="form-control" name="lat" value="<? echo $lat; ?>" /></div>
+						<div class="col-sm-12"><input type="text" class="form-control" name="lat" value="<?php echo $lat; ?>" /></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Longitude</label>
-						<div class="col-sm-12"><input type="text" class="form-control" name="lon" value="<? echo $lon; ?>" /></div>
+						<div class="col-sm-12"><input type="text" class="form-control" name="lon" value="<?php echo $lon; ?>" /></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">About Us  <font color="red">*</font></label>
-						<div class="col-sm-12"><textarea name="aboutus" class="form-control tiny" ><? echo $aboutus; ?></textarea></div>
+						<div class="col-sm-12"><textarea name="aboutus" class="form-control tiny" ><?php echo $aboutus; ?></textarea></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">What We do  <font color="red">*</font></label>
-						<div class="col-sm-12"><textarea name="what_wedo" class="form-control tiny" ><? echo $what_wedo; ?></textarea></div>
+						<div class="col-sm-12"><textarea name="what_wedo" class="form-control tiny" ><?php echo $what_wedo; ?></textarea></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">What We are  <font color="red">*</font></label>
-						<div class="col-sm-12"><textarea name="whatweare" class="form-control tiny" ><? echo $whatweare; ?></textarea></div>
+						<div class="col-sm-12"><textarea name="whatweare" class="form-control tiny" ><?php echo $whatweare; ?></textarea></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">About Text1</label>
-						<div class="col-sm-12"><textarea name="about_text" class="form-control tiny" ><? echo $about_text; ?></textarea></div>
+						<div class="col-sm-12"><textarea name="about_text" class="form-control tiny" ><?php echo $about_text; ?></textarea></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">About Text2</label>
-						<div class="col-sm-12"><textarea name="about_text1" class="form-control tiny" ><? echo $about_text1; ?></textarea></div>
+						<div class="col-sm-12"><textarea name="about_text1" class="form-control tiny" ><?php echo $about_text1; ?></textarea></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Our Services </label>
-						<div class="col-sm-12"><textarea name="services" class="form-control tiny" ><? echo $services; ?></textarea></div>
+						<div class="col-sm-12"><textarea name="services" class="form-control tiny" ><?php echo $services; ?></textarea></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Services Text1</label>
-						<div class="col-sm-12"><textarea name="services_text1" class="form-control tiny" ><? echo $services_text1; ?></textarea></div>
+						<div class="col-sm-12"><textarea name="services_text1" class="form-control tiny" ><?php echo $services_text1; ?></textarea></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Services Text2</label>
-						<div class="col-sm-12"><textarea name="services_text2" class="form-control tiny" ><? echo $services_text2; ?></textarea></div>
+						<div class="col-sm-12"><textarea name="services_text2" class="form-control tiny" ><?php echo $services_text2; ?></textarea></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Terms and Conditions </label>
-						<div class="col-sm-12"><textarea name="terms" class="form-control tiny" ><? echo $terms; ?></textarea></div>
+						<div class="col-sm-12"><textarea name="terms" class="form-control tiny" ><?php echo $terms; ?></textarea></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Privacy</label>
-						<div class="col-sm-12"><textarea name="privacy" class="form-control tiny" ><? echo $privacy; ?></textarea></div>
+						<div class="col-sm-12"><textarea name="privacy" class="form-control tiny" ><?php echo $privacy; ?></textarea></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Home Footer1</label>
-						<div class="col-sm-12"><textarea name="home_footer1" class="form-control tiny" ><? echo $home_footer1; ?></textarea></div>
+						<div class="col-sm-12"><textarea name="home_footer1" class="form-control tiny" ><?php echo $home_footer1; ?></textarea></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Home Footer2</label>
-						<div class="col-sm-12"><textarea name="home_footer2" class="form-control tiny" ><? echo $home_footer2; ?></textarea></div>
+						<div class="col-sm-12"><textarea name="home_footer2" class="form-control tiny" ><?php echo $home_footer2; ?></textarea></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Contact Us Text</label>
-						<div class="col-sm-12"><textarea name="contactus_text" class="form-control tiny" ><? echo $contactus_text; ?></textarea></div>
+						<div class="col-sm-12"><textarea name="contactus_text" class="form-control tiny" ><?php echo $contactus_text; ?></textarea></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Contact Address</label>
-						<div class="col-sm-12"><textarea name="ctc_addr" class="form-control tiny" ><? echo $ctc_addr; ?></textarea></div>
+						<div class="col-sm-12"><textarea name="ctc_addr" class="form-control tiny" ><?php echo $ctc_addr; ?></textarea></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Contact Email</label>
-						<div class="col-sm-12"><input type="email" class="form-control" name="ctc_email" value="<? echo $ctc_email; ?>" /></div>
+						<div class="col-sm-12"><input type="email" class="form-control" name="ctc_email" value="<?php echo $ctc_email; ?>" /></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Contact Number</label>
-						<div class="col-sm-12"><input type="text" class="form-control" name="ctc_num" value="<? echo $ctc_num; ?>" /></div>
+						<div class="col-sm-12"><input type="text" class="form-control" name="ctc_num" value="<?php echo $ctc_num; ?>" /></div>
 					</div>
 
 					  

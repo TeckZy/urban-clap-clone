@@ -1,4 +1,4 @@
-<? include 'header.php';
+<?php include 'header.php';
 include 'leftmenu.php'; 
 $upd = isset($upd)?$upd:'';
 if(isset($submit2)) {
@@ -124,4 +124,4 @@ function valid() {
 
        <script src="plugins/customjs.js"></script>
         <!--Javascript Myjs-->
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>

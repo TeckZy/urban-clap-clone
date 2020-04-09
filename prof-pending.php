@@ -19,7 +19,7 @@ $uid=$_SESSION['pid'];
     <!-- Header================================================== -->
      <?php include "includes/header.php"; ?>
     <section class="parallax-window" data-parallax="scroll" data-image-src="img/home_bg_2.jpg" data-natural-width="1400" data-natural-height="470">
-               <?php include"welcomeprofession.php"; ?>
+               <?php include "welcomeprofession.php"; ?>
             </section>
 
   

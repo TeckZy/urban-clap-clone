@@ -1,4 +1,4 @@
-<? include "AMframe/config.php";
+<?php include "AMframe/config.php";
 				$Message=isSet($Message)?$Message:'';
 	
 	if(isset($submit)) {
@@ -78,13 +78,13 @@
         <div class="card border-grey border-lighten-3 m-0">
             <div class="card-header no-border">
                  <div class="card-title text-xs-center">
-                    <div class="p-1" style="color:#FFF;"><img src="<? echo "$siteurl/admin/uploads/general_setting/$sitelogo"; ?>" alt="branding logo"> </div>
+                    <div class="p-1" style="color:#FFF;"><img src="<?php echo "$siteurl/admin/uploads/general_setting/$sitelogo"; ?>" alt="branding logo"> </div>
                 </div>
                 <h6 class="card-subtitle line-on-side text-muted text-xs-center font-small-3 pt-2"><span>Get Password</span></h6>
             </div>
             <div class="card-body collapse in">
                 <div class="card-block">
-				<? echo $Message; ?> 
+				<?php echo $Message; ?> 
                     <form class="form-horizontal form-simple"  method="post">
                         <fieldset class="form-group position-relative has-icon-left mb-0">
                             <input type="email" name="email" class="form-control form-control-lg input-lg" id="user-name" placeholder="Enter Registered Email ID" required>

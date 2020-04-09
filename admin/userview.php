@@ -1,4 +1,4 @@
-<? include 'header.php';
+<?php include 'header.php';
 include 'leftmenu.php'; 
 $msg="";
 if(isset($addsuc)){
@@ -175,7 +175,7 @@ $disp = "";
 							<h4>Profile Picture</h4>
 							<div class="col-sm-12 ">
 							<?php if($img!=""){?>
-								<img src="<?php echo $siteurl; ?>/<? echo $img; ?>" class="img-responsive" style="max-width: 250px;">
+								<img src="<?php echo $siteurl; ?>/<?php echo $img; ?>" class="img-responsive" style="max-width: 250px;">
 							<?php } ?>
 							</div>
 						</div>
@@ -193,4 +193,4 @@ $disp = "";
     </div>
 <!-- ////////////////////////////////////////////////////////////////////////////-->
 
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>

@@ -1,7 +1,7 @@
  <link rel="stylesheet" type="text/css" href="assets/css/grey.css">
  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap2.css">
-<? include 'header.php';
+<?php include 'header.php';
 include 'leftmenu.php';
 $upd = isset($upd)?$upd:'';
 $msg = isset($msg)?$msg:'';
@@ -184,7 +184,7 @@ $compqus=$com_obj->mailCompQusonly($GetRecord['comp_qusans']);
 	        <div class="card">
 	            <div class="card-header">
 	                <h4 class="card-title">Add New Order Request</h4>
-					<? echo $msg; ?>
+					<?php echo $msg; ?>
 	                <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
         			
 	            </div>
@@ -446,4 +446,4 @@ function prevTab(elem) {
 
        <script src="assets/plugins/customjs.js"></script>
         <!--Javascript Myjs-->
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>

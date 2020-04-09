@@ -95,7 +95,7 @@ if(isset($profesdashboard_response)){
     <!-- Header================================================== -->
      <?php include "includes/header.php"; ?>
     <section class="parallax-window" data-parallax="scroll" data-image-src="img/home_bg_2.jpg" data-natural-width="1400" data-natural-height="470">
-               <?php include"welcomeprofession.php"; ?>
+               <?php include "welcomeprofession.php"; ?>
             </section>
 
   
@@ -104,7 +104,7 @@ if(isset($profesdashboard_response)){
 	<section class="container-fluid margin_31 test3_bg">
        <div class="container mt30 mb30">
 		  <div class="row">
-			<?php include"profleftmenu.php"; ?>
+			<?php include "profleftmenu.php"; ?>
 			<div class="col-lg-9 col-md-9">
                      <div class="col-sm-12 profile_box">
 					   <div class="row mt20 ">

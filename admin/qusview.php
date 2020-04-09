@@ -1,4 +1,4 @@
-<? include 'header.php';
+<?php include 'header.php';
 include 'leftmenu.php'; 
 $msg="";
 
@@ -148,4 +148,4 @@ $disp = "";
     </div>
 <!-- ////////////////////////////////////////////////////////////////////////////-->
 
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>

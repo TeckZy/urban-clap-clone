@@ -1,4 +1,4 @@
-<?
+<?php
 //Array For active and non active 
 $GT_timings=array("","Quaterly","Halfyearly","Annual","weekly","Two Months once","Monthly Once","Custom");
 //Array For active and non active 
@@ -201,4 +201,5 @@ $PS_MatchingPer = 13;
 $PS_Weekend = "Mon";
 $PSRM=3.5;
 $Ps_twlmonthdays = 366;
+
 ?>

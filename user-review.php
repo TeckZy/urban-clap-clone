@@ -25,7 +25,7 @@ if(!empty($delete)){
                   <div class="animated fadeInDown">
                      <div id="search_bar_container" style="background:transparent;">
                         <div class="container">
-                           <?php include"search.php"; ?>
+                           <?php include "search.php"; ?>
                         </div>
                      </div>
                   </div>

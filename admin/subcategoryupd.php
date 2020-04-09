@@ -1,4 +1,4 @@
-<? 
+<?php 
 include'header.php';
 include'leftmenu.php';
 $id = isSet($id) ? $db->escapstr($id) : '' ;
@@ -79,7 +79,7 @@ $category_name = stripslashes($GetRecord['category_name']);
 	    <div class="col-xs-12">
 	        <div class="card">
 	            <div class="card-header">
-	                <h4 class="card-title"><? echo $TextChange;?> Sub Category</h4>
+	                <h4 class="card-title"><?php echo $TextChange;?> Sub Category</h4>
 	                <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
         			
 	            </div>
@@ -92,7 +92,7 @@ $category_name = stripslashes($GetRecord['category_name']);
 					  <div class="form-group col-sm-12">
 						<label class="col-sm-2 control-label">Sub Category Name</label>
 						<div class="col-sm-10">
-                         <input type="text" name="category_name" class="form-control" value="<? echo $category_name; ?>" required />
+                         <input type="text" name="category_name" class="form-control" value="<?php echo $category_name; ?>" required />
 						</div>
 					  </div>
 					  
@@ -100,17 +100,17 @@ $category_name = stripslashes($GetRecord['category_name']);
 					  <!--<div class="form-group col-sm-12">
 						<label class="col-sm-2 control-label">Description</label>
 						<div class="col-sm-10">
-						  <textarea rows="5" name="descript" class="form-control" required>  <? echo $description; ?></textarea>
+						  <textarea rows="5" name="descript" class="form-control" required>  <?php echo $description; ?></textarea>
 						</div>
 					  </div>-->
 					  
 					  <div class="form-group col-sm-12">
 						<label class="col-sm-2 control-label">Image</label>
 						<div class="col-sm-10">
-						  <input type="file" name="img" class="form-control" value="<?php echo $img; ?>" <? if($upd==1) echo "required"; ?> />
-						<? if($upd==2) { ?>
-						<img src="<?php echo $siteurl ?>/admin/uploads/category/<? echo $img; ?>" width="100px" height="100px" />
-						<? } ?>
+						  <input type="file" name="img" class="form-control" value="<?php echo $img; ?>" <?php if($upd==1) echo "required"; ?> />
+						<?php if($upd==2) { ?>
+						<img src="<?php echo $siteurl ?>/admin/uploads/category/<?php echo $img; ?>" width="100px" height="100px" />
+						<?php } ?>
 						<?php
 						echo $error=isset($error)?$error:"";
 						?>

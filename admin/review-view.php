@@ -85,7 +85,7 @@ $id = isSet($id) ? $db->escapstr($id):'';
 							</div>
 							 <div class="form-actions col-sm-12" style="text-align: center;">
 
-						      <a type="button" href="<? echo $_SERVER['HTTP_REFERER']; ?>" class="btn btn-warning mr-1">
+						      <a type="button" href="<?php echo $_SERVER['HTTP_REFERER']; ?>" class="btn btn-warning mr-1">
 									 Back
 								</a>
 								
@@ -104,4 +104,4 @@ $id = isSet($id) ? $db->escapstr($id):'';
     </div>
     <!-- ////////////////////////////////////////////////////////////////////////////-->
 
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>

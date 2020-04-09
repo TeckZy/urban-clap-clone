@@ -1,4 +1,4 @@
-<?php include"includes/title.php"; ?>
+<?php include "includes/title.php"; ?>
 <body>
     <div class="layer"></div>
     <!-- Mobile menu overlay mask -->

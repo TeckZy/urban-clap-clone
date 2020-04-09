@@ -137,7 +137,7 @@ else if($act == "frsts")
                                        </tr>
                                     </thead>
                                     <tbody>
-									<? 
+									<?php 
 									$GetRecords=$db->get_all("select * from appointment order by id desc");
                                     $sno = 1;
                                     if(count($GetRecords)==0)
@@ -214,16 +214,16 @@ else if($act == "frsts")
                                                       </div>
                                                       <div class="card-action col-sm-12">
                                                          <div class="btn-group btn-sm pull-right" role="group" aria-label="Basic example">
-                                                           <? if($approve_status == '0'){ ?>
+                                                           <?php if($approve_status == '0'){ ?>
                                                             <a href="appointment.php?id=<?=$idvalue;?>&status=1" title="Accept" type="button" class="btn btn-sm btn-icon btn-secondary btn-success"><i class="fa fa-check"></i></a>
                                                             <a href="appointment.php?id=<?=$idvalue;?>&status=2" title="Reject" type="button" class="btn btn-sm btn-icon btn-secondary btn-warning"><i class="fa fa-times"></i></a>
-														   <? } ?>
-														   <? if($approve_status == '1'){ ?>
+														   <?php } ?>
+														   <?php if($approve_status == '1'){ ?>
 														      <label type="button" title ="Accepted" class="btn btn-sm btn-icon btn-secondary btn-info"><i class="fa fa-check"></i>Accepted</label>
-														   <? }?>
-														    <? if($approve_status == '2'){ ?>
+														   <?php }?>
+														    <?php if($approve_status == '2'){ ?>
 															 <label  type="button" title ="Rejected" class="btn btn-sm btn-icon btn-secondary btn-info"><i class="fa fa-times"></i>Rejected</label>
-														   <? }?>
+														   <?php }?>
                                                             <a onclick='return makesure();' href='appointment.php?id=<?=$idvalue;?>&act=del'  type='button' class='btn btn-sm btn-icon btn-secondary btn-danger' title='Delete'><i class='fa fa-trash-o'></i></a>				
 				
                                                          </div>
@@ -235,7 +235,7 @@ else if($act == "frsts")
                                           </td>
                                        </tr>
 									   
-									   <? $sno++;
+									   <?php $sno++;
                                        } ?>
 									   
 									
@@ -252,4 +252,4 @@ else if($act == "frsts")
          </div>
       </div>
       <!-- ////////////////////////////////////////////////////////////////////////////-->
-   <? include'footer.php'; ?>
+   <?php include'footer.php'; ?>

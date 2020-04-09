@@ -1,4 +1,4 @@
-<? include 'header.php';
+<?php include 'header.php';
 include 'leftmenu.php';
 $id = isSet($id) ? $db->escapstr($id) : '' ;
 $act = isSet($act) ? $act : '' ; 
@@ -181,4 +181,4 @@ else if($act == "frsts")
     </div>
     <!-- ////////////////////////////////////////////////////////////////////////////-->
 
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>

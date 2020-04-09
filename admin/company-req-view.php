@@ -1,4 +1,4 @@
-<? include 'header.php';
+<?php include 'header.php';
 include 'leftmenu.php'; 
 	$msg="";
 if(isset($addsuc)){
@@ -142,14 +142,14 @@ $disp = "";
 							</div>
 							
 						</div>
-						 <? if($lic_id_proof!="" && file_exists('../uploads/license-id-proof/'.$lic_id_proof)) { ?>
+						 <?php if($lic_id_proof!="" && file_exists('../uploads/license-id-proof/'.$lic_id_proof)) { ?>
 						<div class="col-sm-6">
 							<h4>License ID Proof</h4>
 							<div class="col-sm-12 ">
-								<img src='../uploads/license-id-proof/<? echo $lic_id_proof; ?>' width='250px' height='200px' >				
+								<img src='../uploads/license-id-proof/<?php echo $lic_id_proof; ?>' width='250px' height='200px' >				
 							</div>
 						</div>
-						 <? } ?>
+						 <?php } ?>
 						 <div class="form-actions center col-sm-12" style="text-align:center;"> 
                             <a type="button" href="company-request.php" class="btn btn-warning mr-1">
 									Back
@@ -170,4 +170,4 @@ $disp = "";
     </div>
     <!-- ////////////////////////////////////////////////////////////////////////////-->
 
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>

@@ -1,4 +1,4 @@
-<? include 'header.php';
+<?php include 'header.php';
 include 'leftmenu.php'; 
 $msg="";
 if(isset($addsuc)){
@@ -207,4 +207,4 @@ $city=getCity($detail['city']);
     </div>
 <!-- ////////////////////////////////////////////////////////////////////////////-->
 
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>

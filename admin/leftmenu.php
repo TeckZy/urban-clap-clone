@@ -65,7 +65,7 @@ for($mm=0;$mm<count($GetMenuRec);$mm++){
           </li>
           <li class=" nav-item active"><a href="welcome.php"><i class="ft-home"></i><span data-i18n="" class="menu-title">Dashboard</span></a>
           </li>
-		  <? echo $main_menu_List; ?>
+		  <?php echo $main_menu_List; ?>
        
 
         </ul>

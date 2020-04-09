@@ -83,7 +83,7 @@ $id = isSet($view) ? $db->escapstr($view):'';
 						      <a type="button" href="banner.php" class="btn btn-warning mr-1">
 									<i class="ft-x"></i> Cancel
 								</a>
-								<a href="bannerupd.php?update=<? echo $ban; ?>" type="submit"  class="btn btn-primary" name="submit" onClick="return ban_validate()">
+								<a href="bannerupd.php?update=<?php echo $ban; ?>" type="submit"  class="btn btn-primary" name="submit" onClick="return ban_validate()">
 									<i class="fa fa-check-square-o"></i> Edit
 								</a>
 						 							
@@ -101,4 +101,4 @@ $id = isSet($view) ? $db->escapstr($view):'';
     </div>
     <!-- ////////////////////////////////////////////////////////////////////////////-->
 
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>

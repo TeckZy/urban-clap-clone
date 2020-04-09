@@ -90,7 +90,7 @@ $id = isSet($view) ? $db->escapstr($view):'';
 						      <a type="button" href="certificateverify.php" class="btn btn-warning mr-1">
 									<i class="ft-x"></i> Back
 								</a>
-								<!--<a href="bannerupd.php?update=<? echo $docid; ?>" type="submit"  class="btn btn-primary" name="submit" onClick="return ban_validate()">
+								<!--<a href="bannerupd.php?update=<?php echo $docid; ?>" type="submit"  class="btn btn-primary" name="submit" onClick="return ban_validate()">
 									<i class="fa fa-check-square-o"></i> Edit
 								</a>-->
 						 							
@@ -108,4 +108,4 @@ $id = isSet($view) ? $db->escapstr($view):'';
     </div>
     <!-- ////////////////////////////////////////////////////////////////////////////-->
 
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>

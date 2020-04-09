@@ -1,4 +1,4 @@
-<? include 'header.php';
+<?php include 'header.php';
 include 'leftmenu.php'; 
 $country_id = isSet($country_id) ? $country_id : '' ;
 $upd = isSet($upd) ? $upd : '' ;
@@ -144,4 +144,4 @@ else if($act == "sts")
     <!-- ////////////////////////////////////////////////////////////////////////////-->
 
 
-  <? include'footer.php'; ?>
+  <?php include'footer.php'; ?>

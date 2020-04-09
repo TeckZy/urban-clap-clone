@@ -1,4 +1,4 @@
-<? include 'header.php';
+<?php include 'header.php';
 include 'leftmenu.php'; $msg="";
 $act = isSet($act) ? $act : '' ;
 $sts = isSet($sts) ? $sts : '' ; 
@@ -308,16 +308,16 @@ $disp = "";
 						 <div class="form-group row">
 							<div class="col-xs-7">	
 							<?php if($img!=""){		?>					
-							<img src='<?php echo $siteurl; ?>/<? echo $img; ?>' width='250px' height='200px' />	<?php } ?>						
+							<img src='<?php echo $siteurl; ?>/<?php echo $img; ?>' width='250px' height='200px' />	<?php } ?>						
 							</div>
 						</div>
-						<!--<? if($lic_id_proof!="" && file_exists('../uploads/company-id-proof/'.$lic_id_proof)) { ?>
+						<!--<?php if($lic_id_proof!="" && file_exists('../uploads/company-id-proof/'.$lic_id_proof)) { ?>
 						<div class="form-group row">
 							<div class="col-xs-7">						
-								<img src='<?php echo $siteurl; ?>/uploads/profprofile/<? echo $lic_id_proof; ?>' width='250px' height='200px' />							
+								<img src='<?php echo $siteurl; ?>/uploads/profprofile/<?php echo $lic_id_proof; ?>' width='250px' height='200px' />							
 							</div>
 						</div>
-						<? } ?>-->
+						<?php } ?>-->
 						<!--<div class="form-group row">
 							<div class="col-xs-7">						
 								<h3>Business Timings</h3>
@@ -403,13 +403,13 @@ $disp = "";
 									
 							?>
 									   <tr>
-									        <td style="width:30px;" align='left'><? echo $sno; ?></td>
-											<td  align='left'><? echo $usrname ?></td>
-					                        <td  align='left'><? echo date('d-M-Y',strtotime($book_date)); ?></td>
-											<td  align='left'><? echo $time; ?></td>
+									        <td style="width:30px;" align='left'><?php echo $sno; ?></td>
+											<td  align='left'><?php echo $usrname ?></td>
+					                        <td  align='left'><?php echo date('d-M-Y',strtotime($book_date)); ?></td>
+											<td  align='left'><?php echo $time; ?></td>
                                            
 											<td>		
-						<? if ($approve== 0) {?> 					   
+						<?php if ($approve== 0) {?> 					   
 						<button class="btn btn-info" type="button" data-toggle="collapse" data-target="#appt<?=$sno;?>" aria-expanded="false" aria-controls="appt0">
 						Action
 						</button>
@@ -427,14 +427,14 @@ $disp = "";
 							</div>
 						</div>
 						</div>
-							<? } else if ($approve == 1){?>
+							<?php } else if ($approve == 1){?>
 								<label class="btn btn-success">Accepted <i class=" icon-ok-circled-1"></i></label>
-							   <? } else if ($approve== 2) {?>
+							   <?php } else if ($approve== 2) {?>
 							    <label class="btn btn-danger">Cancelled <i class="icon-cancel-circled"></i></label>
-							   <? } ?>
+							   <?php } ?>
 							   </td>
 									   </tr>
-									<? $sno++; }
+									<?php $sno++; }
 									} 
 									?>
 									</tbody>
@@ -442,10 +442,10 @@ $disp = "";
 								</div>
 								
 								<div class="form-actions col-sm-12" style="text-align:center;    padding-bottom: 20px;">
-								<a  href="<? echo $_SERVER['HTTP_REFERER']; ?>" class="btn btn-warning mr-1">
+								<a  href="<?php echo $_SERVER['HTTP_REFERER']; ?>" class="btn btn-warning mr-1">
 									<i class="ft-x"></i> Back
 								</a>
-								 <a href="company-profileupd.php?upd=2&id=<? echo $id; ?>" class="btn btn-primary">
+								 <a href="company-profileupd.php?upd=2&id=<?php echo $id; ?>" class="btn btn-primary">
 									<i class="fa fa-check-square-o"></i> Edit
 								</a>
 							</div>
@@ -459,4 +459,4 @@ $disp = "";
 				</div>
 				</div>
             </div>
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>

@@ -209,7 +209,7 @@ if(isset($qus_upd)){
                   <div class="animated fadeInDown">
                      <div id="search_bar_container" style="background:transparent;">
                         <div class="container">
-                           <?php include"search.php"; ?>
+                           <?php include "search.php"; ?>
                         </div>
                      </div>
                   </div>
@@ -745,8 +745,8 @@ if(isset($_REQUEST['err'])) { ?>
                      <!--End strip -->
                      <hr>
                      <div class="text-center">
-                        <? $db->insertrec(getPagingQuery1($que, $rowsPerPage, "")); ?>
-					<? echo $pagingLink = getPagingLink1($que,$rowsPerPage,"",$db); ?>
+                        <?php $db->insertrec(getPagingQuery1($que, $rowsPerPage, "")); ?>
+					<?php echo $pagingLink = getPagingLink1($que,$rowsPerPage,"",$db); ?>
                      </div>
                      <!-- end pagination-->
                   </div>

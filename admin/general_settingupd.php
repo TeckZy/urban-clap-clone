@@ -162,17 +162,17 @@ if($act=="upd") {
 						  <div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Website Title <font color="red">*</font></label>
 						<div class="col-sm-12">
-						<input type="text" class="form-control" name="website_title" value="<? echo $website_title; ?>" placeholder="Enter Title" required>
+						<input type="text" class="form-control" name="website_title" value="<?php echo $website_title; ?>" placeholder="Enter Title" required>
 					   </div>
 					   </div>
 					
 					  <div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Website Keywords <font color="red">*</font></label>
-						<div class="col-sm-12"><textarea name="website_keyword" class="form-control tiny" rows="4" cols="45"><? echo $website_keyword; ?></textarea></div>
+						<div class="col-sm-12"><textarea name="website_keyword" class="form-control tiny" rows="4" cols="45"><?php echo $website_keyword; ?></textarea></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label" >Website Url <font color="red">*</font></label>
-						<div class="col-sm-12"><input type="text" class="form-control" name="website_url" value="<? echo $website_url; ?>" placeholder="Enter Url" required></div>
+						<div class="col-sm-12"><input type="text" class="form-control" name="website_url" value="<?php echo $website_url; ?>" placeholder="Enter Url" required></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Search keyword</label>
@@ -189,11 +189,11 @@ if($act=="upd") {
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Paypal Email<font color="red">*</font></label>
-						<div class="col-sm-12"><input type="email" class="form-control" name="paypal_email" value="<? echo $paypal_email; ?>" placeholder="Enter Title" required></div>
+						<div class="col-sm-12"><input type="email" class="form-control" name="paypal_email" value="<?php echo $paypal_email; ?>" placeholder="Enter Title" required></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Currency Symbol<font color="red">*</font></label>
-						<div class="col-sm-12"><input type="text" class="form-control" name="currency" value="<? echo $currency; ?>" placeholder="Enter Title" required></div>
+						<div class="col-sm-12"><input type="text" class="form-control" name="currency" value="<?php echo $currency; ?>" placeholder="Enter Title" required></div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Facebook</label>
@@ -219,15 +219,15 @@ if($act=="upd") {
 					
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Website Logo</label>
-						<div class="col-sm-12"><img src="uploads/general_setting/<? echo $img; ?>" alt="lawyersearch" width="268px" height="50px"><br>
-						<? echo $DisplayDeleteImgLink; ?>
+						<div class="col-sm-12"><img src="uploads/general_setting/<?php echo $img; ?>" alt="lawyersearch" width="268px" height="50px"><br>
+						<?php echo $DisplayDeleteImgLink; ?>
 						<input name="Img" type="file" class="form-control">
 						</div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label class="col-sm-12 control-label">Banner Image</label>
-						<div class="col-sm-12"><img src="../img/<? echo $home_img; ?>" alt="lawyersearch" width="268px" height="50px"><br>
-						<? echo $DisplayDeleteImgLink; ?>
+						<div class="col-sm-12"><img src="../img/<?php echo $home_img; ?>" alt="lawyersearch" width="268px" height="50px"><br>
+						<?php echo $DisplayDeleteImgLink; ?>
 						<input name="banner_img" type="file" class="form-control">
 						</div>
 					</div>
@@ -285,4 +285,4 @@ if($act=="upd") {
       </div>
     </div>
     <!-- ////////////////////////////////////////////////////////////////////////////-->
-<? require_once 'footer.php'; ?>
+<?php require_once 'footer.php'; ?>

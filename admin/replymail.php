@@ -1,4 +1,4 @@
-<? include 'header.php';
+<?php include 'header.php';
 include 'leftmenu.php';
 $act  = isSet($act) ? $act : '' ;
 $page  = isSet($page) ? $page : '' ;
@@ -75,7 +75,7 @@ if(isset($_REQUEST["sel_id"])) {
 	        <div class="card">
 	            <div class="card-header">
 	                <h4 class="card-title">Reply mail</h4>
-					<? echo $msg; ?>
+					<?php echo $msg; ?>
 	                <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
         			
 	            </div>
@@ -83,14 +83,14 @@ if(isset($_REQUEST["sel_id"])) {
 	                <div class="card-block card-dashboard table-responsive">
 	               
 					<form name="rply" class="form-horizontal" method="post" action=""  autocomplete="off">							
-							<? if(isset($_REQUEST["sel_id"])) { ?>
+							<?php if(isset($_REQUEST["sel_id"])) { ?>
 								<input type="hidden" name="multi" value="multi_cont" />
-							<? } ?>
+							<?php } ?>
 							<div class="panel-body">
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> To <span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<input type="text" name="tomail" class="form-control" value="<?   if(isset($_REQUEST["sel_id"])) { echo $str; } else { echo $to; } ?>" readonly />
+										<input type="text" name="tomail" class="form-control" value="<?php   if(isset($_REQUEST["sel_id"])) { echo $str; } else { echo $to; } ?>" readonly />
 									</div>
 								</div>
 								<div class="form-group col-sm-12">
@@ -141,4 +141,4 @@ if(isset($_REQUEST["sel_id"])) {
     <!-- ////////////////////////////////////////////////////////////////////////////-->
 
         <!--Javascript Myjs-->
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>

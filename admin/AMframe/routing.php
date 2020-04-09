@@ -1,4 +1,4 @@
-<?
+<?php
 $GT_Active = "<img src='img/yes.gif'>";
 $GT_InActive = "<img src='img/no.gif'>";
 $GT_Edit = "<img src='img/envelope--minus.png'>";

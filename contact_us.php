@@ -1,4 +1,4 @@
-<?php include"includes/title.php"; 
+<?php include "includes/title.php"; 
 $user_name=isset($user_name)?$user_name:'';
 $user_email=isset($user_email)?$user_email:'';
 $user_number=isset($user_number)?$user_number:'';

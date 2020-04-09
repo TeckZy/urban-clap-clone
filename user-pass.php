@@ -35,7 +35,7 @@ if(isset($_POST['_upd'])){
                   <div class="animated fadeInDown">
                      <div id="search_bar_container" style="background:transparent;">
                         <div class="container">
-                           <?php include"search.php"; ?>
+                           <?php include "search.php"; ?>
                         </div>
                      </div>
                   </div>
@@ -45,7 +45,7 @@ if(isset($_POST['_upd'])){
 	<section class="container-fluid margin_31 test3_bg">
        <div class="container mt30 mb30">
 		  <div class="row">
-			<?php include"leftmenu.php"; ?>
+			<?php include "leftmenu.php"; ?>
 			
 			<div class="col-lg-9 col-md-9">
                      <div class="col-sm-12 profile_box">

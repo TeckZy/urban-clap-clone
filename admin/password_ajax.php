@@ -1,4 +1,4 @@
-<? include "AMframe/config.php";
+<?php include "AMframe/config.php";
 
 	$old_pass=md5($_REQUEST['val']);
 	$pass_db=$db->singlerec("select password from admin where id='1'");

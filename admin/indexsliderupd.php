@@ -1,4 +1,4 @@
-<? include 'header.php';
+<?php include 'header.php';
 include 'leftmenu.php';
 $msg=isSet($Message)?$Message:'';
 $title = isset($title)?$title:'';
@@ -211,12 +211,12 @@ if((isset($_REQUEST['submit'])) )
 										<input type="hidden" name="imagehide" id="imgg" value="<?=$img;?>" />
 									</div>
 									
-									 <? If(isset($update) && ($update!=1)) {?>
+									 <?php If(isset($update) && ($update!=1)) {?>
 									<div class="col-sm-3">
 									    
-										<img src="uploads/indexslider/original/<? echo $img; ?>"  height="70" />
+										<img src="uploads/indexslider/original/<?php echo $img; ?>"  height="70" />
 									</div>
-									<? } ?>
+									<?php } ?>
 								</div>
 								
 								<div class="form-group col-sm-12">
@@ -234,21 +234,21 @@ if((isset($_REQUEST['submit'])) )
 								</div>
 					
 					       <div class="form-actions center col-sm-12">
-						   <? If(isset($update) && ($update!=1) ) {?>
+						   <?php If(isset($update) && ($update!=1) ) {?>
 								<a type="button" href="indexslider.php" class="btn btn-warning mr-1">
 									<i class="ft-x"></i> Cancel
 								</a>
 								<button type="submit"  class="btn btn-primary" name="updt" onClick="return ban_validate1()">
 									<i class="fa fa-check-square-o"></i> Save
 								</button>
-						   <? } else { ?>
+						   <?php } else { ?>
 						   <a type="button" href="indexslider.php" class="btn btn-warning mr-1">
 									<i class="ft-x"></i> Cancel
 								</a>
 								<button type="submit"  class="btn btn-primary" name="submit" onClick="return ban_validate()">
 									<i class="fa fa-check-square-o"></i> Save
 								</button>
-						   <?  } ?>								
+						   <?php  } ?>								
 							</div>
 					</form>
 	               </div>
@@ -372,4 +372,4 @@ if((isset($_REQUEST['submit'])) )
 	}
 	}
 	</script>
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>

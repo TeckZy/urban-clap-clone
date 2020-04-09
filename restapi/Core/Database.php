@@ -1,6 +1,6 @@
 <?php
 require 'phpmailer/PHPMailerAutoload.php';
-require 'phpmailer/emailtemplate.php';
+require './phpmailer/emailtemplate.php';
 class Database {	
 	public $con;
 	

@@ -1,4 +1,4 @@
-<? include 'header.php';
+<?php include 'header.php';
 include 'leftmenu.php';
 $upd = isset($upd)?$upd:'';
 $id = isSet($id) ? $id : '' ;
@@ -66,7 +66,7 @@ else if($upd==2){
 	    <div class="col-xs-12">
 	        <div class="card">
 	            <div class="card-header">
-	                <h4 class="card-title"><? echo $TextChange;?> City</h4>
+	                <h4 class="card-title"><?php echo $TextChange;?> City</h4>
 	                <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
         			
 	            </div>
@@ -78,14 +78,14 @@ else if($upd==2){
 							<input type="hidden" name="upd" value="<?echo $upd;?>" />
 					        <div class="form-group col-sm-12">
 								<label class="col-sm-2 control-label">Name <font color="red">*</font></label>
-								<div class="col-sm-10"><input type="text" name="city_name" id="city_name" value="<? echo $city_name; ?>" class="form-control">
+								<div class="col-sm-10"><input type="text" name="city_name" id="city_name" value="<?php echo $city_name; ?>" class="form-control">
 								</div>
 							</div>
 					
 					  
 					  
 					  <div class="form-actions center col-sm-12">
-								<a href="city.php?cid=<? echo $cid; ?>&sid=<? echo $sid;?>" class="btn btn-warning mr-1">
+								<a href="city.php?cid=<?php echo $cid; ?>&sid=<?php echo $sid;?>" class="btn btn-warning mr-1">
 									<i class="ft-x"></i> Cancel
 								</a>
 								<button type="submit" class="btn btn-primary" name="submit" >
@@ -109,4 +109,4 @@ else if($upd==2){
     </div>
     <!-- ////////////////////////////////////////////////////////////////////////////-->
 
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>

@@ -1,4 +1,4 @@
-<? include 'header.php';include 'leftmenu.php'; 
+<?php include 'header.php';include 'leftmenu.php'; 
 $upd = isset($upd)?$upd:'';
 $id = isSet($id) ? $id : '' ;
 $act = isSet($act) ? $act : '' ;
@@ -67,15 +67,15 @@ $MM_List .= $drop->get_dropdown($db,$DropDownQry,$MM_id);
 	    <div class="col-xs-12">
 	        <div class="card">
 	            <div class="card-header">
-	                <h4 class="card-title"><? echo $TextChange;?> Sub Menu</h4>
+	                <h4 class="card-title"><?php echo $TextChange;?> Sub Menu</h4>
 	                <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
         			
 	            </div>
 	            <div class="card-body collapse in">
 	                <div class="card-block card-dashboard table-responsive">
 	                <form class="form-horizontal" method="post" action="submenumstupd.php" >
-                      <input type="hidden" name="idvalue" value="<? echo $id; ?>" />
-                      <input type="hidden" name="upd" value="<? echo $upd; ?>" />
+                      <input type="hidden" name="idvalue" value="<?php echo $id; ?>" />
+                      <input type="hidden" name="upd" value="<?php echo $upd; ?>" />
 					           <div class="form-group col-sm-12">
 									<label class="col-sm-2 control-label" for="demo-hor-inputemail">Sub Menu</label>
 									<div class="col-sm-10">
@@ -120,7 +120,7 @@ $MM_List .= $drop->get_dropdown($db,$DropDownQry,$MM_id);
       </div>
     </div>
     <!-- ////////////////////////////////////////////////////////////////////////////-->
-<? include'footer.php'; ?>
+<?php include'footer.php'; ?>
 <script type="text/javascript">
 function menucheck(){
 	var valfrm = document.menuval;		

@@ -1,4 +1,4 @@
-<? include'header.php';
+<?php include'header.php';
 include'leftmenu.php';
 $act = isSet($act) ? $act : '' ; 
 $id = isSet($id) ? $db->escapstr($id) : '' ;
@@ -137,22 +137,22 @@ if($act == "lyrsts")
 									<label class="control-label">Search Type</label>
 									<select class="form-control" name="type" id='type1'>
 										<option>Select</option>
-										<option value='1' <? if((isset($type)) && ($type=='1') ){ echo "selected";} else {echo "selected"; }?> >User</option>
-										<option value='2' <? if((isset($type))&& ($type=='2') ){ echo "selected";}?> ><?=$keyword;?></option>
-										<option value='3' <? if((isset($type))&& ($type=='3') ){ echo "selected";}?> >Appointment</option>
+										<option value='1' <?php if((isset($type)) && ($type=='1') ){ echo "selected";} else {echo "selected"; }?> >User</option>
+										<option value='2' <?php if((isset($type))&& ($type=='2') ){ echo "selected";}?> ><?=$keyword;?></option>
+										<option value='3' <?php if((isset($type))&& ($type=='3') ){ echo "selected";}?> >Appointment</option>
 									</select>
 								</div>
 							</div>
 							<div class="col-sm-3"  id='usern'>
 								<div class="form-group" >
 									<label class="control-label">User Name</label>
-									<input type="text" name="username" id="username" class="form-control" value="<? if(isset($username)){ echo $username; }?>" >
+									<input type="text" name="username" id="username" class="form-control" value="<?php if(isset($username)){ echo $username; }?>" >
 								</div>
 							</div>
 							<div class="col-sm-3" id='lawyern' style="display:none;">
 								<div class="form-group">
 									<label class="control-label"><?=$keyword;?> Name</label>
-									<input type="text" name="lawyername" id="lawyername" class="form-control" value="<? if(isset($lawyername)){ echo $lawyername; }?>" >
+									<input type="text" name="lawyername" id="lawyername" class="form-control" value="<?php if(isset($lawyername)){ echo $lawyername; }?>" >
 								</div>
 							</div>
 							<div class="col-sm-3" id="case" style="display:none;">
@@ -160,10 +160,10 @@ if($act == "lyrsts")
 									<label class="control-label" >Category</label>
 									<select class="form-control" name="case" id="case1"  >
                                                     <option></option>
-													<? $DropDown3 = $db->get_all("select id,category_name from category order by category_name asc");
+													<?php $DropDown3 = $db->get_all("select id,category_name from category order by category_name asc");
 													foreach($DropDown3 as $cat ){ ?>
-													 <option value="<? echo $cat['id']; ?>" <? if ((isset($case)) && ($case ==$cat['id'])) { echo "selected";  } ?> ><? echo ucwords($cat['category_name']); ?></option>
-											        <? }?>
+													 <option value="<?php echo $cat['id']; ?>" <?php if ((isset($case)) && ($case ==$cat['id'])) { echo "selected";  } ?> ><?php echo ucwords($cat['category_name']); ?></option>
+											        <?php }?>
 											        </select>
 								</div>
 							</div>
@@ -176,13 +176,13 @@ if($act == "lyrsts")
 									
 									<div class="row">
 													<div class="col-xs-5 no_pd">
-														<input type="text" class="form-control" name="from1" id="fromd" value="<? if ($from1 != $min_date){echo $from1;} ?>" />
+														<input type="text" class="form-control" name="from1" id="fromd" value="<?php if ($from1 != $min_date){echo $from1;} ?>" />
 													</div>
 													<div class="col-xs-2 text-center no_pd">
 														<p>To</p>
 													</div>
 													<div class="col-xs-5 no_pd">
-														<input type="text" class="form-control" name="to1" id="tod" value="<? if($to1 != $max_date){ echo $to1; } ?>" />
+														<input type="text" class="form-control" name="to1" id="tod" value="<?php if($to1 != $max_date){ echo $to1; } ?>" />
 													</div>
 												</div>
 										
@@ -195,13 +195,13 @@ if($act == "lyrsts")
 									<div class='input-group'>
 									<div class="row">
 													<div class="col-xs-5 no_pd">
-														<input type="text" class="form-control" name="regfrom1" id="regfrom1" value="<? if ($regfrom1 != $min_date){echo $regfrom1;} ?>" />
+														<input type="text" class="form-control" name="regfrom1" id="regfrom1" value="<?php if ($regfrom1 != $min_date){echo $regfrom1;} ?>" />
 													</div>
 													<div class="col-xs-2 text-center no_pd">
 														<p>To</p>
 													</div>
 													<div class="col-xs-5 no_pd">
-														<input type="text" class="form-control" name="regto1" id="regto1" value="<? if($regto1 != $max_date){ echo $regto1; } ?>" />
+														<input type="text" class="form-control" name="regto1" id="regto1" value="<?php if($regto1 != $max_date){ echo $regto1; } ?>" />
 													</div>
 									</div>
 									</div>
@@ -262,7 +262,7 @@ if((isset($filter)) && ($type == '1') )
 		$("#lawyertbl").hide();
 		$("#appointmenttbl").hide();
   });</script>
-    <? 
+    <?php 
      $sql="SELECT * FROM register where user_role='0' ";
 	 
 	 $regmax_date=$db->extract_single("SELECT max(crcdt) FROM register");
@@ -396,7 +396,7 @@ if((isset($filter)) && ($type == '2') )
 		$("#appointmenttbl").hide();
 		$("#book").hide();
   });</script>
-    <? 
+    <?php 
      $sql="SELECT * FROM register where user_role='1' ";
 	 $regmax_date=$db->extract_single("SELECT max(crcdt) FROM register");
 	  $regmin_date=$db->extract_single("SELECT min(crcdt) FROM register");
@@ -824,4 +824,4 @@ $(function() {
                                             });
                                           });
         </script>
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>

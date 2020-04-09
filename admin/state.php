@@ -1,4 +1,4 @@
-<? include 'header.php';
+<?php include 'header.php';
 include 'leftmenu.php'; 
 $act = isSet($act) ? $act : '' ; 
 $cid = isSet($cid) ? $cid : '' ;
@@ -98,7 +98,7 @@ else if($act == "sts")
 	            <div class="card-body collapse in">
 				<div class="col-sm-12" style="text-align: right;">
 				    <a href="country.php" class="btn btn-info nrdr_r_zero">Back</a>
-					<a href="stateupd.php?upd=1&cid=<? echo $cid; ?>" class="btn btn-info nrdr_r_zero">Add New</a>
+					<a href="stateupd.php?upd=1&cid=<?php echo $cid; ?>" class="btn btn-info nrdr_r_zero">Add New</a>
 					</div>
 	                <div class="card-block card-dashboard table-responsive">
 	                
@@ -128,4 +128,4 @@ else if($act == "sts")
     <!-- ////////////////////////////////////////////////////////////////////////////-->
 
 
-  <? include'footer.php'; ?>
+  <?php include'footer.php'; ?>

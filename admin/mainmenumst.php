@@ -1,4 +1,4 @@
-<? include'header.php';include'leftmenu.php'?>
+<?php include'header.php';include'leftmenu.php'?>
 <?
 $act = isSet($act) ? $act : '' ; 
 $id = isSet($id) ? $id : '' ;
@@ -134,4 +134,4 @@ else if($act == "sts")
     <!-- ////////////////////////////////////////////////////////////////////////////-->
 
 
-    <? include'footer.php'; ?>
+    <?php include'footer.php'; ?>

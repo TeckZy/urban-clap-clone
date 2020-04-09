@@ -86,7 +86,7 @@ include'leftmenu.php';?>
                 </div>
             </div>
             <div class="card-body brdr_green">
-               <? $GetRecords=$db->get_all("select * from appointment order by id desc limit 5"); ?>
+               <?php $GetRecords=$db->get_all("select * from appointment order by id desc limit 5"); ?>
                 <div class="table-responsive">
                     <table id="recent-orders" class="table table-hover mb-0 ps-container ps-theme-default">
                         <thead>
@@ -119,13 +119,13 @@ include'leftmenu.php';?>
 	                    $tot_amount = $getAmount["pay_amount"]; ?>
                             <tr>
                                 <td  align='left'><?=$sno;?></td>
-				               <td  align='left' class='name'><? echo $com_obj->get_name($user_id); ?></a></td>
-				               <td  align='left'><? echo $com_obj->get_name($lawyer_id); ?></a></td>
+				               <td  align='left' class='name'><?php echo $com_obj->get_name($user_id); ?></a></td>
+				               <td  align='left'><?php echo $com_obj->get_name($lawyer_id); ?></a></td>
 				                <td  align='left'><?=ucfirst($getcase['category_name']);?></td>
 				                <td  align='left'><?=$tot_amount;?></td>				
 				                <td  align='left'><?=date('d-M-Y',strtotime($book_date));?></td>
                             </tr>
-							<? $sno++;
+							<?php $sno++;
                              } ?>
                             
                         </tbody>
@@ -184,7 +184,7 @@ include'leftmenu.php';?>
 								<td class="text-truncate"><?=$crcdt;?></td>
 								<td class="text-truncate"><a href="company-view.php?id=<?=$idvalue1;?>">View</a></td>
                             </tr>
-						   <? $sno++; } ?>
+						   <?php $sno++; } ?>
                             
                         </tbody>
                     </table>
@@ -242,7 +242,7 @@ include'leftmenu.php';?>
 								<td class="text-truncate"><?=$crcdt;?></td>
 								<td class="text-truncate"><a href="userview.php?id=<?=$idvalue;?>">View</a></td>
                             </tr>
-								<? $sno++; } ?>
+								<?php $sno++; } ?>
                             
                         </tbody>
                     </table>
@@ -259,4 +259,4 @@ include'leftmenu.php';?>
       </div>
     </div>
     
-<? include 'footer.php';?>
+<?php include 'footer.php';?>

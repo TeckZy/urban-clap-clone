@@ -1,4 +1,4 @@
-<? include 'header.php';
+<?php include 'header.php';
 include 'leftmenu.php';
 $upd = isset($upd)?$upd:'';
 $msg = isset($msg)?$msg:'';
@@ -227,65 +227,65 @@ if(empty($prf_img)){
 	    <div class="col-xs-12">
 	        <div class="card">
 	            <div class="card-header">
-	                <h4 class="card-title"><? if($upd==1) { echo "Add"; } else { echo "Edit"; } ?> New <?=$keyword;?></h4>
+	                <h4 class="card-title"><?php if($upd==1) { echo "Add"; } else { echo "Edit"; } ?> New <?=$keyword;?></h4>
 	                <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
         			
 	            </div>
 	            <div class="card-body collapse in">
 	                <div class="card-block card-dashboard table-responsive">
 	                <form name="lyrfrm" id="User" class="form-horizontal" action="" method="post"  enctype="multipart/form-data">
-                         <input type="hidden" name="upd" value="<? echo $upd; ?>" />
+                         <input type="hidden" name="upd" value="<?php echo $upd; ?>" />
 						 <input type="hidden" name="service_ct" id="ser_count" />
 					<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> User First Name <span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<input type="text" name="fname" class="form-control" value="<? echo $fname; ?>" />
+										<input type="text" name="fname" class="form-control" value="<?php echo $fname; ?>" />
 									</div>
 								</div>
 								
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> User Last Name <span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<input type="text" name="lname" class="form-control" value="<? echo $lname; ?>" />
+										<input type="text" name="lname" class="form-control" value="<?php echo $lname; ?>" />
 									</div>
 								</div>
 								
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Email ID <span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<input type="email" name="email" id="emailid" class="form-control" onChange="return checkmail()" value="<? echo $email; ?>" <? if($upd==2) echo "readonly"; ?> />
+										<input type="email" name="email" id="emailid" class="form-control" onChange="return checkmail()" value="<?php echo $email; ?>" <?php if($upd==2) echo "readonly"; ?> />
 									</div>
 								</div>
 								
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Password <span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<input type="text" name="password" minlength="8" class="form-control" value="<? echo $password; ?>" />
+										<input type="text" name="password" minlength="8" class="form-control" value="<?php echo $password; ?>" />
 									</div>
 								</div>
 								
 								<!--<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> <?=$keyword;?> Title <span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<input type="text" name="title" class="form-control" value="<? echo $title; ?>" />
+										<input type="text" name="title" class="form-control" value="<?php echo $title; ?>" />
 									</div>
 								</div>
 							
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Practicing Since <span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<input type="text" name="practice_yr_since" class="form-control" placeholder="Year You Started Practicing"  onkeydown="return ( event.ctrlKey || event.altKey || (47<event.keyCode &amp;&amp; event.keyCode<58 &amp;&amp; event.shiftKey==false) || (95<event.keyCode &amp;&amp; event.keyCode<106) || (event.keyCode==8) || (event.keyCode==9) || (event.keyCode>34 &amp;&amp; event.keyCode<40) || (event.keyCode==46) )" maxlength="4" value="<? echo $practice_yr_since; ?>" />
+										<input type="text" name="practice_yr_since" class="form-control" placeholder="Year You Started Practicing"  onkeydown="return ( event.ctrlKey || event.altKey || (47<event.keyCode &amp;&amp; event.keyCode<58 &amp;&amp; event.shiftKey==false) || (95<event.keyCode &amp;&amp; event.keyCode<106) || (event.keyCode==8) || (event.keyCode==9) || (event.keyCode>34 &amp;&amp; event.keyCode<40) || (event.keyCode==46) )" maxlength="4" value="<?php echo $practice_yr_since; ?>" />
 									</div>
 								</div>
 								
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Practicing In <span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<input type="text" name="practice_in" class="form-control" value="<? echo $practice_court; ?>" />
+										<input type="text" name="practice_in" class="form-control" value="<?php echo $practice_court; ?>" />
 									</div>
 								</div>-->
 								
-							<? if($upd==1) { ?>
+							<?php if($upd==1) { ?>
 								
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> ID Proof <span class="req">*</span> </label>
@@ -304,7 +304,7 @@ if(empty($prf_img)){
 								</div>
 							
 								
-								<? } ?>
+								<?php } ?>
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Professional Experience <span class="req">*</span> </label>
 									<div class="col-sm-9">
@@ -413,57 +413,57 @@ if(empty($prf_img)){
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Contact Number<span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<input type="text" name="phone1" class="form-control" value="<? echo $contact_no1; ?>" onkeydown="return ( event.ctrlKey || event.altKey || (47<event.keyCode &amp;&amp; event.keyCode<58 &amp;&amp; event.shiftKey==false) || (95<event.keyCode &amp;&amp; event.keyCode<106) || (event.keyCode==8) || (event.keyCode==9) || (event.keyCode>34 &amp;&amp; event.keyCode<40) || (event.keyCode==46) )" />
+										<input type="text" name="phone1" class="form-control" value="<?php echo $contact_no1; ?>" onkeydown="return ( event.ctrlKey || event.altKey || (47<event.keyCode &amp;&amp; event.keyCode<58 &amp;&amp; event.shiftKey==false) || (95<event.keyCode &amp;&amp; event.keyCode<106) || (event.keyCode==8) || (event.keyCode==9) || (event.keyCode>34 &amp;&amp; event.keyCode<40) || (event.keyCode==46) )" />
 									</div>
 								</div>
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label">Location <span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<input type="text" name="exploc" class="form-control" value="<? echo $editInfo['exp_location']; ?>" />
+										<input type="text" name="exploc" class="form-control" value="<?php echo $editInfo['exp_location']; ?>" />
 									</div>
 								</div>
 								<!--<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Contact Number 2 </label>
 									<div class="col-sm-9">
-										<input type="text" name="phone2" class="form-control" value="<? echo $contact_no2; ?>" onkeydown="return ( event.ctrlKey || event.altKey || (47<event.keyCode &amp;&amp; event.keyCode<58 &amp;&amp; event.shiftKey==false) || (95<event.keyCode &amp;&amp; event.keyCode<106) || (event.keyCode==8) || (event.keyCode==9) || (event.keyCode>34 &amp;&amp; event.keyCode<40) || (event.keyCode==46) )" />
+										<input type="text" name="phone2" class="form-control" value="<?php echo $contact_no2; ?>" onkeydown="return ( event.ctrlKey || event.altKey || (47<event.keyCode &amp;&amp; event.keyCode<58 &amp;&amp; event.shiftKey==false) || (95<event.keyCode &amp;&amp; event.keyCode<106) || (event.keyCode==8) || (event.keyCode==9) || (event.keyCode>34 &amp;&amp; event.keyCode<40) || (event.keyCode==46) )" />
 									</div>
 								</div>-->
 								
 								<!--<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Address <span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<input type="text" name="building" class="form-control" placeholder="Building" value="<? echo $building; ?>" /> <br />
-										<input type="text" name="street" class="form-control" placeholder="Street" value="<? echo $street; ?>" /><br />
-										<input type="text" name="landmark" class="form-control" placeholder="Landmark" value="<? echo $landmark; ?>" /><br />
-										<input type="text" name="area" class="form-control" placeholder="Area" value="<? echo $area; ?>" />
+										<input type="text" name="building" class="form-control" placeholder="Building" value="<?php echo $building; ?>" /> <br />
+										<input type="text" name="street" class="form-control" placeholder="Street" value="<?php echo $street; ?>" /><br />
+										<input type="text" name="landmark" class="form-control" placeholder="Landmark" value="<?php echo $landmark; ?>" /><br />
+										<input type="text" name="area" class="form-control" placeholder="Area" value="<?php echo $area; ?>" />
 									</div>
 								</div>-->
 								
 								<div class="form-group  col-sm-12">
 									<label class="col-sm-3 control-label">Address <span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<input type="text" name="prf_address" class="form-control" placeholder="Area" value="<? echo $editInfo['user_address']; ?>" />
+										<input type="text" name="prf_address" class="form-control" placeholder="Area" value="<?php echo $editInfo['user_address']; ?>" />
 									</div>
 								</div>
 								
 								<!--<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Zip Code <span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<input type="text" name="zipcode" class="form-control" value="<? //echo $editInfo['zip_code']; ?>" />
+										<input type="text" name="zipcode" class="form-control" value="<?php //echo $editInfo['zip_code']; ?>" />
 									</div>
 								</div>-->
 								
 								<!--<div class="form-group  col-sm-12">
 									<label class="col-sm-3 control-label"> Website  </label>
 									<div class="col-sm-9">
-										<input type="text" name="website" class="form-control" placeholder="http://www.example.com" value="<? echo $website; ?>" />
+										<input type="text" name="website" class="form-control" placeholder="http://www.example.com" value="<?php echo $website; ?>" />
 									</div>
 								</div>-->
 								
 								<div class="form-group  col-sm-12">
 									<label class="col-sm-3 control-label"> About <?=$keyword;?> <span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<textarea rows="6" name="about_self" id="aboutSelf" class="form-control tiny"> <? echo $about_self; ?> 
+										<textarea rows="6" name="about_self" id="aboutSelf" class="form-control tiny"> <?php echo $about_self; ?> 
 										</textarea>
 									</div>
 								</div>
@@ -478,11 +478,11 @@ if(empty($prf_img)){
 										<input type="file" name="img" id="img_id" class="form-control" accept="image/*" onchange="img_validate('img_id',400,600)" />
 										<br /><p style="font-size:14px;"> Only jpg, jpeg, png, gif file with dimension above 400x600 & maximum size of 1 MB is allowed. </p>
 									</div>
-								<? if($upd==2) { ?>
+								<?php if($upd==2) { ?>
 									<div class="col-sm-3">
 									<img src="<?php echo $siteurl ?>/<?=$prf_img; ?>" width="50" height="50" />
 									</div>
-								<? } ?>
+								<?php } ?>
 							<div class="form-actions center col-sm-12">
 								<a href="company-profile.php" class="btn btn-warning mr-1">
 									<i class="ft-x"></i> Cancel
@@ -776,4 +776,4 @@ function get_city(val){
 </script>
 
 
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>

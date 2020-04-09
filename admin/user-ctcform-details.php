@@ -1,4 +1,4 @@
-<? include'header.php'; 
+<?php include'header.php'; 
 include'leftmenu.php';
 $act = isSet($act) ? $act : '' ; 
 $id = isSet($id) ? $db->escapstr($id) : '' ;
@@ -174,4 +174,4 @@ $("#replylogg").on('click', function () {
     }
 });
 </script>
-<? include'footer.php'; ?>
+<?php include'footer.php'; ?>

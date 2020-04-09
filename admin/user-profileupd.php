@@ -1,4 +1,4 @@
-<? include 'header.php';
+<?php include 'header.php';
 include 'leftmenu.php';
 $upd = isset($upd)?$upd:'';
 $msg = isset($msg)?$msg:'';
@@ -128,7 +128,7 @@ if(empty($prf_img)){
 	        <div class="card">
 	            <div class="card-header">
 	                <h4 class="card-title">Add New User</h4>
-					<? echo $msg; ?>
+					<?php echo $msg; ?>
 	                <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
         			
 	            </div>
@@ -141,28 +141,28 @@ if(empty($prf_img)){
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> First Name <span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<input type="text" name="fname" class="form-control" value="<? echo $fname; ?>" />
+										<input type="text" name="fname" class="form-control" value="<?php echo $fname; ?>" />
 									</div>
 								</div>
 								
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Last Name <span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<input type="text" name="lname" class="form-control" value="<? echo $lname; ?>" />
+										<input type="text" name="lname" class="form-control" value="<?php echo $lname; ?>" />
 									</div>
 								</div>
 								
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Email ID <span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<input type="email" name="email" id="emailid" class="form-control" onChange="return checkmail()" value="<? echo $email; ?>" <? if($upd==2) echo "readonly"; ?> />
+										<input type="email" name="email" id="emailid" class="form-control" onChange="return checkmail()" value="<?php echo $email; ?>" <?php if($upd==2) echo "readonly"; ?> />
 									</div>
 								</div>
 								
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Password <span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<input type="text" name="password" class="form-control" value="<? echo $password; ?>" />
+										<input type="text" name="password" class="form-control" value="<?php echo $password; ?>" />
 									</div>
 								</div>
 								
@@ -199,7 +199,7 @@ if(empty($prf_img)){
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Location <span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<input type="text" name="loction" id="loction" class="form-control" value="<? echo $user_locality; ?>" />
+										<input type="text" name="loction" id="loction" class="form-control" value="<?php echo $user_locality; ?>" />
 									</div>
 								</div>
 									<div class="form-group col-sm-12">
@@ -212,42 +212,42 @@ if(empty($prf_img)){
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Contact Number<span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<input type="text" name="phone" class="form-control" value="<? echo $contact_no1; ?>" onkeydown="return ( event.ctrlKey || event.altKey || (47<event.keyCode &amp;&amp; event.keyCode<58 &amp;&amp; event.shiftKey==false) || (95<event.keyCode &amp;&amp; event.keyCode<106) || (event.keyCode==8) || (event.keyCode==9) || (event.keyCode>34 &amp;&amp; event.keyCode<40) || (event.keyCode==46) )" />
+										<input type="text" name="phone" class="form-control" value="<?php echo $contact_no1; ?>" onkeydown="return ( event.ctrlKey || event.altKey || (47<event.keyCode &amp;&amp; event.keyCode<58 &amp;&amp; event.shiftKey==false) || (95<event.keyCode &amp;&amp; event.keyCode<106) || (event.keyCode==8) || (event.keyCode==9) || (event.keyCode>34 &amp;&amp; event.keyCode<40) || (event.keyCode==46) )" />
 									</div>
 								</div>
 								
 								<!--<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Building  </label>
 									<div class="col-sm-9">
-										<input type="text" name="building" class="form-control" value="<? echo $building; ?>" />
+										<input type="text" name="building" class="form-control" value="<?php echo $building; ?>" />
 									</div>
 								</div>
 								
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Street </label>
 									<div class="col-sm-9">
-										<input type="text" name="street" class="form-control" value="<? echo $street; ?>" />
+										<input type="text" name="street" class="form-control" value="<?php echo $street; ?>" />
 									</div>
 								</div>
 								
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Landmark  </label>
 									<div class="col-sm-9">
-										<input type="text" name="landmark" class="form-control" value="<? echo $landmark; ?>" />
+										<input type="text" name="landmark" class="form-control" value="<?php echo $landmark; ?>" />
 									</div>
 								</div>
 								
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Area  </label>
 									<div class="col-sm-9">
-										<input type="text" name="area" class="form-control" value="<? echo $area; ?>" />
+										<input type="text" name="area" class="form-control" value="<?php echo $area; ?>" />
 									</div>
 								</div>
 								
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Zip Code <span class="req">*</span> </label>
 									<div class="col-sm-9">
-										<input type="text" name="zipcode" class="form-control" value="<? echo $zip_code; ?>" onkeydown="return ( event.ctrlKey || event.altKey || (47<event.keyCode &amp;&amp; event.keyCode<58 &amp;&amp; event.shiftKey==false) || (95<event.keyCode &amp;&amp; event.keyCode<106) || (event.keyCode==8) || (event.keyCode==9) || (event.keyCode>34 &amp;&amp; event.keyCode<40) || (event.keyCode==46) )" />
+										<input type="text" name="zipcode" class="form-control" value="<?php echo $zip_code; ?>" onkeydown="return ( event.ctrlKey || event.altKey || (47<event.keyCode &amp;&amp; event.keyCode<58 &amp;&amp; event.shiftKey==false) || (95<event.keyCode &amp;&amp; event.keyCode<106) || (event.keyCode==8) || (event.keyCode==9) || (event.keyCode>34 &amp;&amp; event.keyCode<40) || (event.keyCode==46) )" />
 									</div>
 								</div>-->
 								
@@ -256,11 +256,11 @@ if(empty($prf_img)){
 									<div class="col-sm-9">
 										<input type="file" name="img" id="img_id" class="form-control" accept="image/*" onchange="img_validate('img_id',330,220)" />
 									</div>
-								<? if($upd==2) { ?>
+								<?php if($upd==2) { ?>
 									<div class="col-sm-9">
 									<img src="<?php echo $siteurl ?>/<?=$prf_img; ?>" width="50" height="50" />
 									</div>
-								<? } ?>
+								<?php } ?>
 								</div>
 							<!--<p style="font-size:14px;"> **Only jpg, jpeg, png, gif file with dimension above 330X220 & maximum size of 1 MB is allowed. </p>-->
 				
@@ -449,4 +449,4 @@ function get_city(val){
 
        <script src="assets/plugins/customjs.js"></script>
         <!--Javascript Myjs-->
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>

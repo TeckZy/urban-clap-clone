@@ -84,7 +84,7 @@ else if($act=="fgp")
         <div class="card border-grey border-lighten-3 m-0">
             <div class="card-header no-border">
                 <div class="card-title text-xs-center">
-                    <div class="p-1" style="color:#FFF;"><img src="<? echo "$siteurl/admin/uploads/general_setting/$sitelogo"; ?>" width="173px" alt="branding logo"> </div>
+                    <div class="p-1" style="color:#FFF;"><img src="<?php echo "$siteurl/admin/uploads/general_setting/$sitelogo"; ?>" width="173px" alt="branding logo"> </div>
                 </div>
                 <h6 class="card-subtitle line-on-side text-muted text-xs-center font-small-3 pt-2"><span>Login</span></h6>
             </div>

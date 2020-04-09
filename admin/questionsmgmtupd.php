@@ -1,4 +1,4 @@
-<? include 'header.php';
+<?php include 'header.php';
 include 'leftmenu.php';
 $upd = isset($upd)?$upd:'';
 $msg = isset($msg)?$msg:'';
@@ -98,7 +98,7 @@ $q_type=$GetRecord['q_type'];
 	        <div class="card">
 	            <div class="card-header">
 	                <h4 class="card-title">Add New Questions</h4>
-					<? echo $msg; ?>
+					<?php echo $msg; ?>
 	                <a class="heading-elements-toggle"><i class="fa fa-ellipsis-v font-medium-3"></i></a>
         			
 	            </div>
@@ -161,63 +161,63 @@ if($cunt<=2 && $upd==2) $class=""; else $class="readonly";
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Main Heading  </label>
 									<div class="col-sm-9">
-										<input type="text" name="admin_main_head" class="form-control" value="<? echo $admin_main_head; ?>" />
+										<input type="text" name="admin_main_head" class="form-control" value="<?php echo $admin_main_head; ?>" />
 									</div>
 								</div>
 								
 								<div class="form-group col-sm-12">
 									<label class="col-sm-3 control-label"> Question? </label>
 									<div class="col-sm-9">
-										<input type="text" name="admin_qus" class="form-control" value="<? echo $admin_qus; ?>" />
+										<input type="text" name="admin_qus" class="form-control" value="<?php echo $admin_qus; ?>" />
 									</div>
 								</div>
 								
 								<div class="form-group col-sm-12" id="_choice1">
 									<label class="col-sm-3 control-label"> Choice1  </label>
 									<div class="col-sm-9">
-										<input type="text" name="admin_choice1" id="admin_choice1" class="form-control" value="<? echo $admin_choice1; ?>" />
+										<input type="text" name="admin_choice1" id="admin_choice1" class="form-control" value="<?php echo $admin_choice1; ?>" />
 									</div>
 								</div>
 								
 								<div class="form-group col-sm-12" id="_choice2">
 									<label class="col-sm-3 control-label"> Choice2  </label>
 									<div class="col-sm-9">
-										<input type="text" name="admin_choice2" id="admin_choice1" class="form-control" value="<? echo $admin_choice2; ?>" />
+										<input type="text" name="admin_choice2" id="admin_choice1" class="form-control" value="<?php echo $admin_choice2; ?>" />
 									</div>
 								</div>
 								
 								<div class="form-group col-sm-12" id="_choice3">
 									<label class="col-sm-3 control-label"> Choice3  </label>
 									<div class="col-sm-9">
-										<input type="text" name="admin_choice3" id="admin_choice1" class="form-control" value="<? echo $admin_choice3; ?>" />
+										<input type="text" name="admin_choice3" id="admin_choice1" class="form-control" value="<?php echo $admin_choice3; ?>" />
 									</div>
 								</div>
 								
 								<div class="form-group col-sm-12" id="_choice4">
 									<label class="col-sm-3 control-label"> Choice4  </label>
 									<div class="col-sm-9">
-										<input type="text" name="admin_choice4" id="admin_choice1" class="form-control" value="<? echo $admin_choice4; ?>" />
+										<input type="text" name="admin_choice4" id="admin_choice1" class="form-control" value="<?php echo $admin_choice4; ?>" />
 									</div>
 								</div>
 								
 								<div class="form-group col-sm-12" id="_choice5">
 									<label class="col-sm-3 control-label"> Choice5  </label>
 									<div class="col-sm-9">
-										<input type="text" name="admin_choice5" id="admin_choice1" class="form-control" value="<? echo $admin_choice5; ?>" />
+										<input type="text" name="admin_choice5" id="admin_choice1" class="form-control" value="<?php echo $admin_choice5; ?>" />
 									</div>
 								</div>
 								
 								<div class="form-group col-sm-12" id="budget">
 									<label class="col-sm-3 control-label"> Budget From  </label>
 									<div class="col-sm-9">
-										<input type="text" name="admin_budget_from" id="admin_choice1" class="form-control" value="<? echo $admin_budget_from; ?>" />
+										<input type="text" name="admin_budget_from" id="admin_choice1" class="form-control" value="<?php echo $admin_budget_from; ?>" />
 									</div>
 								</div>
 								
 								<div class="form-group col-sm-12" id="budget_to">
 									<label class="col-sm-3 control-label"> Budget To  </label>
 									<div class="col-sm-9">
-										<input type="text" name="admin_budget_to" id="admin_choice1" class="form-control" value="<? echo $admin_budget_to; ?>" />
+										<input type="text" name="admin_budget_to" id="admin_choice1" class="form-control" value="<?php echo $admin_budget_to; ?>" />
 									</div>
 								</div>
 								
@@ -458,4 +458,4 @@ function checkstatus(id){
 
        <script src="assets/plugins/customjs.js"></script>
         <!--Javascript Myjs-->
-<? include 'footer.php'; ?>
+<?php include 'footer.php'; ?>
