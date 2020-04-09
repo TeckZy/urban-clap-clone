@@ -1,0 +1,201 @@
+[31-Jan-2019 03:47:53 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[31-Jan-2019 05:00:21 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[31-Jan-2019 06:14:37 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[31-Jan-2019 06:58:21 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[01-Feb-2019 01:20:21 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[01-Feb-2019 12:51:02 Asia/Kolkata] PHP Fatal error:  Call to undefined method Database::getCategoryid() in /home2/under24u/public_html/demo/professionalservice/restapi/sub-category.php on line 5
+[01-Feb-2019 01:40:29 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[01-Feb-2019 03:06:49 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[01-Feb-2019 03:30:20 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[01-Feb-2019 16:41:05 Asia/Kolkata] PHP Fatal error:  Call to undefined method Database::cat_name() in /home2/under24u/public_html/demo/professionalservice/restapi/prof-info.php on line 74
+[01-Feb-2019 05:52:40 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[01-Feb-2019 17:30:02 Asia/Kolkata] PHP Warning:  unlink(): http does not allow unlinking in /home2/under24u/public_html/demo/professionalservice/restapi/imageupload.php on line 15
+[01-Feb-2019 17:30:02 Asia/Kolkata] PHP Warning:  file_put_contents(http://under24usd.com/demo/professionalservice/uploads/userprofile/843185c5434c267d89.jpeg): failed to open stream: HTTP wrapper does not support writeable connections in /home2/under24u/public_html/demo/professionalservice/restapi/imageupload.php on line 17
+[01-Feb-2019 17:34:12 Asia/Kolkata] PHP Warning:  unlink(): http does not allow unlinking in /home2/under24u/public_html/demo/professionalservice/restapi/imageupload.php on line 15
+[01-Feb-2019 17:34:12 Asia/Kolkata] PHP Warning:  file_put_contents(http://under24usd.com/demo/professionalservice/uploads/userprofile/753825c5435bcdca89.jpeg): failed to open stream: HTTP wrapper does not support writeable connections in /home2/under24u/public_html/demo/professionalservice/restapi/imageupload.php on line 17
+[01-Feb-2019 17:37:03 Asia/Kolkata] PHP Warning:  unlink(): http does not allow unlinking in /home2/under24u/public_html/demo/professionalservice/restapi/imageupload.php on line 15
+[01-Feb-2019 17:37:03 Asia/Kolkata] PHP Warning:  file_put_contents(http://under24usd.com/demo/professionalservice/uploads/userprofile/266145c54366771bb2.jpg): failed to open stream: HTTP wrapper does not support writeable connections in /home2/under24u/public_html/demo/professionalservice/restapi/imageupload.php on line 17
+[01-Feb-2019 17:37:11 Asia/Kolkata] PHP Warning:  unlink(): http does not allow unlinking in /home2/under24u/public_html/demo/professionalservice/restapi/imageupload.php on line 15
+[01-Feb-2019 17:37:11 Asia/Kolkata] PHP Warning:  file_put_contents(http://under24usd.com/demo/professionalservice/uploads/userprofile/904165c54366fc5b61.png): failed to open stream: HTTP wrapper does not support writeable connections in /home2/under24u/public_html/demo/professionalservice/restapi/imageupload.php on line 17
+[01-Feb-2019 18:32:22 Asia/Kolkata] PHP Warning:  unlink(): http does not allow unlinking in /home2/under24u/public_html/demo/professionalservice/restapi/imageupload.php on line 15
+[01-Feb-2019 18:32:22 Asia/Kolkata] PHP Warning:  file_put_contents(uploads/userprofile/254195c54435eabebf.jpg): failed to open stream: No such file or directory in /home2/under24u/public_html/demo/professionalservice/restapi/imageupload.php on line 17
+[01-Feb-2019 18:33:46 Asia/Kolkata] PHP Warning:  unlink(): http does not allow unlinking in /home2/under24u/public_html/demo/professionalservice/restapi/imageupload.php on line 15
+[01-Feb-2019 18:33:46 Asia/Kolkata] PHP Warning:  file_put_contents(uploads/userprofile/250875c5443b20b62c.png): failed to open stream: No such file or directory in /home2/under24u/public_html/demo/professionalservice/restapi/imageupload.php on line 17
+[01-Feb-2019 18:34:05 Asia/Kolkata] PHP Warning:  file_put_contents(..uploads/userprofile/986155c5443c57e7ea.png): failed to open stream: No such file or directory in /home2/under24u/public_html/demo/professionalservice/restapi/imageupload.php on line 17
+[01-Feb-2019 18:34:55 Asia/Kolkata] PHP Warning:  file_put_contents(..uploads/userprofile/881345c5443f728677.png): failed to open stream: No such file or directory in /home2/under24u/public_html/demo/professionalservice/restapi/imageupload.php on line 17
+[01-Feb-2019 18:38:48 Asia/Kolkata] PHP Warning:  unlink(): http does not allow unlinking in /home2/under24u/public_html/demo/professionalservice/restapi/imageupload.php on line 19
+[02-Feb-2019 12:43:28 Asia/Kolkata] PHP Warning:  unlink(../uploads/userprofile/uploads/userprofile/userimg2019-02-02-978.png): No such file or directory in /home2/under24u/public_html/demo/professionalservice/restapi/imageupload.php on line 19
+[02-Feb-2019 12:51:36 Asia/Kolkata] PHP Warning:  unlink(../uploads/userprofile/uploads/userprofile/userimg2019-02-02-552.png): No such file or directory in /home2/under24u/public_html/demo/professionalservice/restapi/imageupload.php on line 19
+[02-Feb-2019 12:51:36 Asia/Kolkata] PHP Warning:  file_put_contents(../uploads/userprofile/uploads/userprofile/850155c554500a5dcf.jpeg): failed to open stream: No such file or directory in /home2/under24u/public_html/demo/professionalservice/restapi/imageupload.php on line 22
+[02-Feb-2019 12:57:08 Asia/Kolkata] PHP Warning:  unlink(../uploads/userprofile/850155c554500a5dcf.jpeg): No such file or directory in /home2/under24u/public_html/demo/professionalservice/restapi/imageupload.php on line 19
+[02-Feb-2019 13:07:38 Asia/Kolkata] PHP Warning:  unlink(../385845c5445c483d75.png): No such file or directory in /home2/under24u/public_html/demo/professionalservice/restapi/imageupload.php on line 19
+[02-Feb-2019 18:02:10 Asia/Kolkata] PHP Fatal error:  Call to undefined method Database::escapstr() in /home2/under24u/public_html/demo/professionalservice/restapi/prof-edit-profile.php on line 44
+[02-Feb-2019 18:02:16 Asia/Kolkata] PHP Fatal error:  Call to undefined method Database::escapstr() in /home2/under24u/public_html/demo/professionalservice/restapi/prof-edit-profile.php on line 44
+[02-Feb-2019 06:42:40 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Feb-2019 06:45:34 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Feb-2019 06:46:19 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Feb-2019 06:47:11 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Feb-2019 06:48:05 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Feb-2019 06:48:38 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[02-Feb-2019 18:20:41 Asia/Kolkata] PHP Fatal error:  Call to undefined method Database::escapstr() in /home2/under24u/public_html/demo/professionalservice/restapi/prof-edit-profile.php on line 57
+[02-Feb-2019 18:20:47 Asia/Kolkata] PHP Fatal error:  Call to undefined method Database::escapstr() in /home2/under24u/public_html/demo/professionalservice/restapi/prof-edit-profile.php on line 57
+[02-Feb-2019 18:43:40 Asia/Kolkata] PHP Warning:  unlink(../uploads/profdoc/533285c5596b7538f0.png): No such file or directory in /home2/under24u/public_html/demo/professionalservice/restapi/prof-edit-profile.php on line 95
+[03-Feb-2019 23:28:39 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[03-Feb-2019 23:31:06 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[03-Feb-2019 23:32:48 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[03-Feb-2019 23:34:10 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[03-Feb-2019 23:38:05 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[03-Feb-2019 23:38:46 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[03-Feb-2019 23:39:05 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[04-Feb-2019 00:30:39 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[04-Feb-2019 00:47:58 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[04-Feb-2019 01:50:19 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[04-Feb-2019 01:57:54 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[04-Feb-2019 02:39:23 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[04-Feb-2019 02:50:25 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[04-Feb-2019 03:33:26 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[04-Feb-2019 17:06:05 Asia/Kolkata] PHP Fatal error:  Call to undefined function arraypush() in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 92
+[04-Feb-2019 17:06:25 Asia/Kolkata] PHP Warning:  array_push() expects parameter 1 to be array, integer given in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:12:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 94
+[04-Feb-2019 17:12:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 94
+[04-Feb-2019 17:12:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 94
+[04-Feb-2019 17:12:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 94
+[04-Feb-2019 17:12:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 94
+[04-Feb-2019 17:12:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 94
+[04-Feb-2019 17:12:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 94
+[04-Feb-2019 17:12:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 94
+[04-Feb-2019 17:12:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 94
+[04-Feb-2019 17:12:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 94
+[04-Feb-2019 17:12:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 94
+[04-Feb-2019 17:16:36 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:17:27 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 92
+[04-Feb-2019 17:18:03 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 92
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 92
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 95
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 92
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 95
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 92
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 95
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 92
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 95
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 92
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 95
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 92
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 95
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 92
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 95
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 92
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 95
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 92
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 95
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 92
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 95
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 92
+[04-Feb-2019 17:18:50 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 95
+[04-Feb-2019 17:20:30 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:20:30 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:20:30 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:20:30 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:20:30 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:20:30 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:20:30 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:20:30 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:20:30 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:20:30 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:20:30 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:21:10 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:21:10 Asia/Kolkata] PHP Fatal error:  Cannot use string offset as an array in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:22:43 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:22:43 Asia/Kolkata] PHP Fatal error:  Cannot use string offset as an array in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:23:38 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:26:08 Asia/Kolkata] PHP Warning:  Illegal string offset 'img' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'uimg' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'uimg' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'uimg' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'uimg' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'uimg' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'uimg' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'uimg' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'uimg' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'uimg' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'user_id' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 93
+[04-Feb-2019 17:27:04 Asia/Kolkata] PHP Warning:  Illegal string offset 'uimg' in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 96
+[04-Feb-2019 17:39:48 Asia/Kolkata] PHP Warning:  array_push() expects parameter 1 to be array, integer given in /home2/under24u/public_html/demo/professionalservice/restapi/prof-details.php on line 104
+[05-Feb-2019 03:35:41 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Feb-2019 07:06:33 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Feb-2019 07:24:29 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Feb-2019 23:03:20 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Feb-2019 23:19:23 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Feb-2019 23:59:38 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[06-Feb-2019 00:47:04 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[06-Feb-2019 00:47:46 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[06-Feb-2019 00:49:03 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[06-Feb-2019 00:54:21 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[06-Feb-2019 01:24:33 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[06-Feb-2019 01:24:51 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[06-Feb-2019 01:25:32 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[06-Feb-2019 01:25:52 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[06-Feb-2019 01:46:06 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[06-Feb-2019 03:43:34 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[06-Feb-2019 23:23:53 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[06-Feb-2019 23:24:03 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[07-Feb-2019 00:24:13 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[07-Feb-2019 00:59:08 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[07-Feb-2019 03:59:20 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[08-Feb-2019 04:17:05 America/Chicago] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Feb-2019 17:33:15 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home2/under24u/public_html/demo/professionalservice/restapi/Core/Database.php on line 100
+[12-Feb-2019 06:27:41 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home2/under24u/public_html/demo/professionalservice/restapi/enq_update.php on line 23
+[12-Feb-2019 06:27:46 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home2/under24u/public_html/demo/professionalservice/restapi/enq_update.php on line 23
+[12-Feb-2019 06:27:47 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home2/under24u/public_html/demo/professionalservice/restapi/enq_update.php on line 23
+[12-Feb-2019 06:30:06 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home2/under24u/public_html/demo/professionalservice/restapi/enq_update.php on line 23

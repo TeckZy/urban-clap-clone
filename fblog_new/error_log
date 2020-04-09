@@ -1,0 +1,15 @@
+[13-Jun-2018 11:01:08 Asia/Calcutta] PHP Notice:  Undefined variable: db_fname in /home/under24u/public_html/demo/professionalservice/fblog_new/index.php on line 69
+[15-Jun-2018 18:20:18 Asia/Calcutta] PHP Notice:  Undefined variable: db_fname in /home/under24u/public_html/demo/professionalservice/fblog_new/index.php on line 72
+[15-Jun-2018 18:53:11 Asia/Calcutta] PHP Notice:  A session had already been started - ignoring session_start() in /home/under24u/public_html/demo/professionalservice/fblog_new/index.php on line 64
+[15-Jun-2018 18:53:11 Asia/Calcutta] PHP Notice:  Undefined variable: db_fname in /home/under24u/public_html/demo/professionalservice/fblog_new/index.php on line 72
+[15-Jun-2018 18:53:21 Asia/Calcutta] PHP Notice:  A session had already been started - ignoring session_start() in /home/under24u/public_html/demo/professionalservice/fblog_new/index.php on line 64
+[15-Jun-2018 18:53:21 Asia/Calcutta] PHP Notice:  Undefined variable: db_fname in /home/under24u/public_html/demo/professionalservice/fblog_new/index.php on line 72
+[15-Jun-2018 18:53:31 Asia/Calcutta] PHP Notice:  A session had already been started - ignoring session_start() in /home/under24u/public_html/demo/professionalservice/fblog_new/index.php on line 64
+[15-Jun-2018 18:53:31 Asia/Calcutta] PHP Notice:  Undefined variable: db_fname in /home/under24u/public_html/demo/professionalservice/fblog_new/index.php on line 72
+[15-Jun-2018 18:53:49 Asia/Calcutta] PHP Notice:  A session had already been started - ignoring session_start() in /home/under24u/public_html/demo/professionalservice/fblog_new/index.php on line 64
+[15-Jun-2018 18:53:49 Asia/Calcutta] PHP Notice:  Undefined variable: db_fname in /home/under24u/public_html/demo/professionalservice/fblog_new/index.php on line 72
+[15-Jun-2018 19:00:13 Asia/Calcutta] PHP Notice:  Undefined index: selectrole in /home/under24u/public_html/demo/professionalservice/fblog_new/index.php on line 62
+[02-Sep-2018 13:13:09 Asia/Calcutta] PHP Notice:  Undefined index: selectrole in /home/under24u/public_html/demo/professionalservice/fblog_new/index.php on line 62
+[27-Sep-2018 02:03:02 Asia/Calcutta] PHP Notice:  Undefined index: selectrole in /home/under24u/public_html/demo/professionalservice/fblog_new/index.php on line 62
+[27-Sep-2018 02:03:30 Asia/Calcutta] PHP Notice:  Undefined index: selectrole in /home/under24u/public_html/demo/professionalservice/fblog_new/index.php on line 62
+[05-Oct-2018 18:12:52 Asia/Calcutta] PHP Notice:  Undefined index: selectrole in /home/under24u/public_html/demo/professionalservice/fblog_new/index.php on line 62

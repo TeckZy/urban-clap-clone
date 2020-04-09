@@ -1,0 +1,13 @@
+Rewriteengine on
+
+RewriteRule ^login/([^/]*)/$ login.php [NC]
+RewriteRule ^register/([^/]*)/$ register.php [NC]
+RewriteRule ^become-a-professional/([^/]*)/$ become-a-professional.php [NC]
+RewriteRule ^list/([^/]*)/([^/]*)/$ list.php?list=$1&catid=$2 [L]
+RewriteRule ^list-detail/([^/]*)/$ list-detail.php?uid=$1 [L]
+RewriteRule ^prof-dashboard/([^/]*)/$ prof-dashboard.php/ [L]
+RewriteRule ^user-request/([^/]*)/$ user-request.php/ [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
